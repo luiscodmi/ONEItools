@@ -1,42 +1,48 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
     margin: 0px;
 }
-
-.header * {
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
-    display: inline;
-    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3.5rem;
     align-items: center;
     white-space: nowrap;
-}
-
-.div-header {
-    background-color: rgb(75, 167, 233);
+    background-color: rgb(86, 173, 231);
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height: 5rem;            
     padding: 0rem 3rem;
 }
 
-.info-perfil, p, b {
+.info-perfil {
+    display: flex;
     font-size: 1rem;
     text-align: end;
 }
 
+.div-info{
+    padding-right: .5rem;
+    align-self: center;
+}
+
+.identification {
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+}
+
 .nav-header {
-    background-color: rgb(4, 63, 63);
+    background-color: rgb(9, 112, 112);
     height: 1.5rem;
     font-size: 1.2rem;
     display: flex;
     align-items: center;            
     padding: 0rem 3rem;
     color: aliceblue;
+    font-family: Arial;
 }
 
 .aside {
@@ -93,12 +99,12 @@ a:active {
     background: yellow;
 }
 
-.div-content-page {
+.container {
     background-color: #e5e6e7;
     position: fixed;
     top: 6.5rem;
     left: 0;
-    width: 100vw;
+    width: 64.25rem;
     height: calc(100vh - 6.5rem);
     z-index: 1;
     padding-left: 21rem;
