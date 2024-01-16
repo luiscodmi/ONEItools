@@ -5,13 +5,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-header {
+.main-header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.5rem;
+    display: flex;
     align-items: center;
     white-space: nowrap;
     background-color: rgb(86, 173, 231);
-    display: flex;
     justify-content: space-between;
     height: 5rem;            
     padding: 0rem 3rem;
@@ -23,7 +23,7 @@ header {
     text-align: end;
 }
 
-.div-info{
+.div-info {
     padding-right: .5rem;
     align-self: center;
 }
@@ -45,7 +45,7 @@ header {
     font-family: Arial;
 }
 
-.aside {
+.main-menu {
     background-color: silver;
     display: flex;
     flex-direction: column;
@@ -66,14 +66,9 @@ input:focus {
     width: 14.5rem;
     margin-top: 1.5rem;
     margin-bottom: .3rem;
-    font-size: 16px;
-    border: 0;
+    font-size: 1rem;
+    border: none;
     padding: .1rem .3rem;
-}
-
-.input::after { /* aquí fue donde traté de hacer el pico (la punta) del buscador */
-    height: 0;
-    width: 0;
 }
 
 .search-main {
@@ -85,23 +80,22 @@ input:focus {
     font-size: 1.3rem;
 }
 
-a {
+.a-link {
     padding: .3rem 1rem;
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+.a-link:hover {
     background: rgb(231, 204, 181);
 }
 
-a:active {
+.a-link:active {
     background: yellow;
 }
 
 .container {
     background-color: #e5e6e7;
-    position: fixed;
     top: 6.5rem;
     left: 0;
     width: 64.25rem;
