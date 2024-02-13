@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    background-color: rgb(86, 173, 231);
+    justify-content: space-between;
+    height: 5rem;            
+    padding: 0rem 3rem;
+}
+
+.info-perfil {
+    display: flex;
+    font-size: 1rem;
+    text-align: end;
+}
+
+.div-info {
+    padding-right: .5rem;
+    align-self: center;
+}
+
+.identification {
+    background-color: white;
+    width: 4rem;
+    height: 4rem;
+}
+
+.nav-header {
+    background-color: rgb(9, 112, 112);
+    height: 1.5rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;            
+    padding: 0rem 3rem;
+    color: aliceblue;
+    font-family: Arial;
+}
+
+.main-menu {
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+    width: 16rem;
+    height: calc(100vh - 10rem);
+    margin-left: 3rem;
+    padding: .3rem 0rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-aside {
+    align-self: center;
+    width: 14.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: .3rem;
+    font-size: 1rem;
+    border: none;
+    padding: .1rem .3rem;
+}
+
+.search-main {
+    margin-top: 4rem;
+    width: 50rem;
+    height: 2.8rem;
+    border: none;
+    border-bottom: .2rem solid;
+    font-size: 1.3rem;
+}
+
+.a-link {
+    padding: .3rem 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.a-link:hover {
+    background: rgb(231, 204, 181);
+}
+
+.a-link:active {
+    background: yellow;
+}
+
+.container {
+    background-color: #e5e6e7;
+    top: 6.5rem;
+    left: 0;
+    width: 64.25rem;
+    height: calc(100vh - 6.5rem);
+    z-index: 1;
+    padding-left: 21rem;
+    display: flex;
+    flex-direction: column;
+}
